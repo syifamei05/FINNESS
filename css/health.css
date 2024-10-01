@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(/Asset/bg2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.sleeptracker{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+
+.sleeptracker .speel{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.progressbar1{
+    width: 250px;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 70px;
+}
+
+.healthbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sleep1{
+    width: 150px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.sleep2{
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+.sleep3{
+    width: 150px;
+    height: 120px;
+    margin-left : 50px;
+    margin-top: 30px;
+}
+.sleep4{
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.healthmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sleeptracker1{
+    margin-top: 80px;
+    margin-left: 100px;
+}
+
+.sleeptracker1 .speel1{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.progressbar2{
+    width: 250px;
+    height: 250px;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+.healthbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.healthchoice{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.calculatormeal{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.calculatormeal a{
+    text-decoration: none;
+}
+
+.calculator{
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #636A1C;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.mealplan{
+    position: relative;
+    z-index: 20;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #E5EBA2;
+    margin-left: -20px;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #000;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.food1{
+    width: 150px;
+    height: 120px;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.food2{
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+.food3{
+    width: 150px;
+    height: 120px;
+    margin-left : 50px;
+    margin-top: 30px;
+}
+.food4{
+    width: 150px;
+    height: 120px;
+    margin-left: 20px;
+}
+
+.healthsleep1{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}

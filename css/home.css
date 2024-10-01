@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .bgimg{
+    overflow: hidden;
+    position:absolute;
+    z-index: -100;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    width: 440px;
+    height: auto;
+    background-attachment: fixed;
+} */
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(/Asset/bg2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+h2{
+    font-size: 2.6em;
+    color: #fff;
+    text-shadow: 5px 5px 4px #8F9C00;
+    font-family: "Poetsen One";
+    margin-left: -210px;
+    margin-top: -400px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.homepage{
+    position: relative;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.homemain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.homefill{
+    color: #fff;
+    font-size: 27px;
+    text-align: center;
+    margin-top: -570px;
+    margin-left: 0px;
+    margin-bottom: 0;
+    font-family: "Rounded Mplus 1c";
+}
+
+.homeisi{
+    display: inline-block;
+}
+
+.homecal{
+    color: #D2DF47;
+}
+
+.progressbar{
+    width: 250px;
+    height: 250px;
+    margin-left: 75px;
+    margin-top: -300px;
+}
+
+.homedesc{
+    color: #fff;
+}
+
+.box1{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #08D9D6;
+    margin-left: 70px;
+}
+.box2{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color: #D72323;
+    margin-left: 70px;
+}
+.box3{
+    width: 20px;
+    height: 20px;
+    border-radius: 5px;
+    background-color:#F7FD04;
+    margin-left: 70px;
+}
+
+.homeprogress{
+    align-items: center;
+    justify-content: center;
+}
+
+.homeprogress p{
+    margin-left: 0px;
+    margin-top: 20px;
+    padding-left: 50px;
+}
+
+.homeprogress .space{
+    padding-left: 30px;
+}
+
+.homeprogress .space1{
+    padding-left: 50px;
+}
+.homeprogress .space2{
+    padding-left: 30px;
+}
+.homeprogress .space3{
+    padding-left: 25px;
+}
+
+.imgworkout1{
+    width: 90%;
+    height: auto;
+    margin-top: 650px;
+    position: absolute;
+    padding-bottom: 10px;
+}
+.imgworkout2{
+    width: 90%;
+    height: auto;
+    margin-top: 800px;
+    position: absolute;
+    padding-bottom: 10px;
+}
+.imgworkout3{
+    width: 90%;
+    height: auto;
+    margin-top: 950px;
+    position: absolute;
+    padding-bottom: 50px;
+}

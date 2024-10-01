@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(/Asset/bg2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.forumpage{
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -43px;
+}
+.forumprof{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-color: #fff;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+    
+.forumdesc{
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.forumchoice{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.latestfriend{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.notif{
+    position: relative;
+    padding: 0;
+    margin-left: 330px;
+    margin-bottom: -15px;
+    width: 25px;
+    height: 25px;
+}
+
+.latest{
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #E5EBA2;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #000;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.friend{
+    z-index: -20;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #636A1C;
+    margin-left: -20px;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.friendd{
+    text-decoration: none;
+}
+.example{
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.FAQ{
+    width: 100px;
+    height: 100px;
+    margin-left: 290px;
+    margin-top: 90px;
+}

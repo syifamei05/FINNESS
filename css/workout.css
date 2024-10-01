@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(/Asset/bg2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.letswork{
+    font-size: 1em;
+    color: #fff;
+    font-family: "Poetsen One";
+    margin-left: -150px;
+    margin-top: 80px;
+    position: fixed;
+    overflow: hidden;
+}
+
+.homepage{
+    position: relative;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.openn{
+    color: #D2DF47;
+}
+
+.optionn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 140px;
+}
+
+.workoption{
+    border-radius: 10px;
+}
+
+.workout{
+    margin-top: 100px;
+}
+
+.workout12{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+
+.oppen{
+    text-decoration: none;
+}
+
+.workoutexample{
+    width: 380px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.workoutexample1{
+    width: 380px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-bottom: 100px;
+}

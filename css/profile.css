@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+    background-image: url(/Asset/bg2.png);
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.profmain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #383838;
+    width: 440px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+.profprof{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 120px;
+    height: 50px;
+}
+
+.profprof .profileat{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    margin-left: 30px;
+    margin-top: 0px;
+}
+
+.profprof a{
+    margin-top: 10px;
+}
+
+.icon{
+    color: #fff;
+    margin-left: 110px;
+    margin-top: 8px;
+    width: 20px;
+    height: 20px;
+    font-size: 32px;
+}
+
+.linel{
+    transform: rotate(90deg);
+    height: 440px;
+    width: 2px;
+}
+
+.progressbar4{
+    width: 200px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.datebirths{
+    margin-top: 20px;
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    margin-left: 180px;
+}
+
+.leveling1{
+    width: 350px;
+    height: auto;
+}
+
+.levelup{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+    margin-left: 40px;
+}
+
+.descript{
+    color: #fff;
+    padding-top: 10px;
+}
+
+.leveling2{
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 0px;
+}

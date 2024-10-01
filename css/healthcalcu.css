@@ -1,0 +1,113 @@
+.mealsearch{
+    position: relative;
+    margin-left: 50px;
+    margin-top: 20px;
+    left: -25px;
+}
+
+.mealsearch label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #fff;
+    pointer-events: none;
+    padding-left: 50px;
+    opacity: .6;
+    transition: .5s;
+}
+
+.mealsearch input{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    padding: 0 5px;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    background-color: #BFC592;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+}
+
+.icon{
+    position: absolute;
+    left: 10px;
+    font-size: 1.6em;
+    line-height: 70px;
+    margin-top: -10px;
+}
+
+.healthchoice1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+.calculatormeal1{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 40px;
+}
+
+.calculatormeal1 a{
+    text-decoration: none;
+}
+
+.calculator1{
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #E5EBA2;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #000;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.mealplan1{
+    z-index:- 20;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #636A1C;
+    margin-left: -20px;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.foodcalc1{
+    width: 150px;
+    height: 200px;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.foodcalc2{
+    width: 150px;
+    height: 200px;
+    margin-left: 40px;
+}
+
+.healthsleep1{
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 200px;
+}

@@ -1,0 +1,82 @@
+.forumpage1{
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin-top: -383px;
+}
+
+.notif3{
+    position: relative;
+    padding: 0;
+    margin-left: 110px;
+    margin-bottom: -15px;
+    width: 25px;
+    height: 25px;
+    z-index: 30;
+}
+
+.notif2{
+    position: relative;
+    padding: 0;
+    margin-left: 190px;
+    margin-bottom: -15px;
+    width: 25px;
+    height: 25px;
+    z-index: 30;
+}
+
+.line{
+    position: relative;
+    width: 2px;
+    height: 37px;
+    margin-left: -156px;
+    margin-bottom: -49.8px;
+    z-index: 25;
+}
+
+.latestt{
+    text-decoration: none;
+}
+
+.latest2{
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #636A1C;
+    outline: #000;
+    border: #000;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.friend2{
+    position: relative;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #636A1C;
+    margin-left: -20px;
+    outline: #000;
+    border: #000;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.example2{
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}

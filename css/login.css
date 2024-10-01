@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Saira Condensed";
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.loginbox{
+    position: relative;
+    width: 400px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+h2{
+    font-size: 2.1em;
+    color: #FFFFFF;
+    margin-top: -170px;
+    margin-bottom: 65px;
+    font-family: "Readex Pro";
+}
+
+.profbg{
+    width: 155px;
+    height: 155px;
+    margin-bottom: 30px;
+}
+
+.inputbox{
+    position: relative;
+    width: 350px;
+    margin: 30px 0;
+}
+
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    transform: translateY(-50%);
+    font-size: 1em;
+    color: #FFFFFF;
+    opacity: 0.6;
+    pointer-events: none;
+    font-family: "Saira Condensed";
+    transition: .5s;
+}
+
+.inputbox input:focus~label, .inputbox input:valid~label{
+    top: 8px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    background-color: #BFC592;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    color: #FFFFFF;
+    padding-left: 50px;    
+    border-radius: 10px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 2px #000000;
+}
+
+.inputbox .icon{
+    position: absolute;
+    left: 10px;
+    font-size: 1.9em;
+    line-height: 70px;
+}
+
+.passforget{
+    margin-top: -30px;
+    margin-left: 250px;
+}
+
+.passforget a{
+    color: #BFC592;
+    font-size: .9em;
+    text-decoration: none;
+}
+
+.passforget a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    background: #8F9C00;
+    outline: none;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.4em;
+    font-family: "Saira Condensed";
+    color: #FFFFFF;
+    font-weight: 600;
+}
+
+button:hover{
+    box-shadow: 5px 5px 2px #000000;
+    height: 50px;
+}
+
+.regislink{
+    font-size: 1em;
+    color: #BFC592;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.regislink p a{
+    color: #BFC592;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.regislink a:hover{
+    text-decoration: underline;
+}

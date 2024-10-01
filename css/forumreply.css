@@ -1,0 +1,8 @@
+.example3{
+    width: 360px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: -95px;
+    margin-left: 37px;
+}

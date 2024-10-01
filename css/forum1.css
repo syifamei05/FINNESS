@@ -1,0 +1,64 @@
+.notif1{
+    position: relative;
+    padding: 0;
+    margin-left: 180px;
+    margin-bottom: -15px;
+    width: 25px;
+    height: 25px;
+    z-index: 30;
+}
+
+.latestt{
+    text-decoration: none;
+}
+
+.latest1{
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #636A1C;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.friend1{
+    position: relative;
+    z-index: 20;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #E5EBA2;
+    margin-left: -20px;
+    box-shadow: 2px 2px 2px #000;
+    outline: #000;
+    border: #000;
+    color: #000;
+    font-size: 22px;
+    font-family: "Red Hat Text";
+    cursor: pointer;
+}
+
+.example1{
+    width: 380px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.FAQ1{
+    width: 100px;
+    height: 100px;
+    margin-left: 290px;
+    margin-top: 90px;
+}
