@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=440px, heigth=855px, initial-scale=1.0">
+    <title>Homescreen</title>
+    <link rel="stylesheet" href="/css/home.css">
+    <link rel="stylesheet" href="/css/navbarbot.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/calender.css">
+    <link rel="stylesheet" href="/css/evo-calendar.min.css">
+    <link rel="stylesheet" href="/css/evo-calendar.midnight-blue.min.css">
+  </head>
+<!-- <img src="../Asset/bg2.png" alt="" class="bgimg"> -->
+<body>
+    <header>
+        <nav class="homepage">
+            <div class="finness">
+                <h2>FINNESS</h2>
+            </div>
+        </nav>
+
+        <div class="homemain">
+            <div class="homefill">
+                <p class="homeisi">Today you have <br>consumed <a class="homecal">1000 cal</a>
+            </div>
+        </div>
+           
+        <img src="../Asset/progress bar.png" alt="" class="progressbar">
+
+        <div class="homedesc">
+            <div class="homeprogress">
+              <div class="box1">
+                <p>Progress<span class="space"></span>100cal<span class="space"></span>20%</p>
+              </div>
+              <div class="box2">
+                <p>Calories<span class="space"></span>1000cal<span class="space3"></span>20%</p>
+              </div>
+              <div class="box3">
+                <p>Time<span class="space1"></span>30Min<span class="space2"></span>10%</p>
+              </div>
+            </div>
+        </div>
+
+        <div class="hero">
+          <div id="calendar"></div>
+        </div>
+      <img src="/Asset/pushupexercise.png" alt="" class="imgworkout1">
+      <img src="/Asset/squatexercise.png" alt="" class="imgworkout2">
+      <img src="/Asset/situpexercise.png" alt="" class="imgworkout3">
+      <div class="navbar">
+        <div class="navbarmain">
+
+        </div>
+        <a href="homescreen.html"><i class="fa-solid fa-house" style="color: #000000;"></i></a>
+        <a href="forumpage.html"><i class="fa-solid fa-message" style="color: #a4abb8;"></i></a>
+        <a href="workout.html"><i class="fa-solid fa-dumbbell" style="color: #a4abb8;"></i></a>
+        <a href="health.html"><i class="fa-solid fa-heart" style="color: #a4abb8;"></i></a>
+        <a href="profile.html"><i class="fa-solid fa-user" style="color: #a4abb8;"></i></a>
+
+    </div>
+    </header>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="/js/evo-calendar.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $('#calendar').evoCalendar({
+                
+            });
+        })
+    </script>
+</body>
+</html>
